@@ -92,99 +92,124 @@ class Controller {
     class Data {
         constructor() {
             this.data = [
-                {
+                {   
+                    Type : "male",
                     Image: "./Picture/Coffee-1.jpg"
                 },
                 {
+                    Type : "male",
                     Image: "./Picture/Coffee-2.jpg"
                 },
                 {
+                    Type : "male",
                     Image: "./Picture/Coffee-3.jpg"
                 },
                 {
+                    Type : "male",
                     Image: "./Picture/Coffee-4.jpg"
                 },
                 {
+                    Type : "male",
                     Image: "./Picture/Coffee-5.jpg"
                 },
                 {
+                    Type : "male",
                     Image: "./Picture/Coffee-6.jpg"
                 },
                 {
+                    Type : "male",
                     Image: "./Picture/Coffee-7.jpg"
                 },
                 {
+                    Type : "male",
                     Image: "./Picture/Coffee-8.jpg"
                 },
                 {
+                    Type : "male",
                     Image: "./Picture/Coffee-9.jpg"
                 },
                 {
+                    Type : "male",
                     Image: "./Picture/Coffee-10.jpg"
                 },
                 {
+                    Type : "male",
                     Image: "./Picture/Coffee-11.jpg"
                 },
             ]
         this.data1 = [
             {
+                Type : "female",
                 Image: "./Picture/Burger-1.jpg"
             },
             {
+                Type : "female",
                 Image: "./Picture/Burger-2.jpg"
             },
             {
+                Type : "female",
                 Image: "./Picture/Burger-3.jpg"
             },
             {
+                Type : "female",
                 Image: "./Picture/Burger-4.jpg"
             },
             {
+                Type : "female",
                 Image: "./Picture/Burger-5.jpg"
             },
             {
+                Type : "female",
                 Image: "./Picture/Burger-6.jpg"
             },
             {
+                Type : "female",
                 Image: "./Picture/Burger-7.jpg"
             },    
         ]
         this.data2 = [
             {
+                Type : "kids",
                 Image: "./Picture/Picture-1.jpg"
             },
-            
             {
+                Type : "kids",
                 Image: "./Picture/Picture-2.jpg"
             },
-            
             {
+                Type : "kids",
                 Image: "./Picture/Picture-3.jpg"
             },
-            
             {
+                Type : "kids",
                 Image: "./Picture/Picture-4.jpg"
             },
-            
             {
+                Type : "kids",
                 Image: "./Picture/Picture-5.jpg"
             },
             {
+                Type : "kids",
                 Image: "./Picture/Picture-6.jpg"
             },
             {
+                Type : "kids",
                 Image: "./Picture/Picture-7.jpg"
             },
             {
+                Type : "kids",
                 Image: "./Picture/Picture-8.jpg"
             },
             {
+                Type : "kids",
                 Image: "./Picture/Picture-9.jpg"
             },
             {
+                Type : "kids",
                 Image: "./Picture/Shoes-1.jpg"
             },
             {
+                Type : "kids",
                 Image: "./Picture/Shoes-2.jpg"
             },
         ]

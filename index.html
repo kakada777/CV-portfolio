@@ -18,15 +18,17 @@
     <title>Document</title>
 </head>
 <body>
-    <nav class="navbar sticky-top" >
-      <div class="logo">My CV</div>
-      <ul class="nav-links">
-          <li><a href="#" class="Male " id="male" onclick="setActive(this)">Coffee</a></li>
+    <nav class="navbar sticky-top">
+        <div class="logo">My CV</div>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div> <!-- Hamburger Icon -->
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#" class="Male" id="male" onclick="setActive(this)">Coffee</a></li>
           <li><a href="#" class="Female" id="female" onclick="setActive(this)">Burger</a></li>
-          <li><a href="#" class="Kids " id="kids"  onclick="setActive(this)">Picture</a></li>
+          <li><a href="#" class="Kids" id="kids" onclick="setActive(this)">Picture</a></li>
           <li><a href="#" class="More" id="all" onclick="setActive(this)">ALL</a></li>
-      </ul>
-  </nav>
+        </ul>
+      </nav>
+      
     <div class=" container">
       <div class="row draw-card " >
         
@@ -38,13 +40,16 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="./script/index.js"></script>
 <script>
-  function setActive(element) {
-            document.querySelectorAll('.nav-links a').forEach(a => a.classList.remove('active'));
-            element.classList.add('active');
-        }
-        function toggleMenu() {
-            document.querySelector('.nav-links').classList.toggle('active');
-        }
+  function toggleMenu() {
+  const navLinks = document.getElementById('navLinks');
+  navLinks.classList.toggle('active');
+}
+
+function setActive(element) {
+  document.querySelectorAll('.nav-links a').forEach(el => el.classList.remove('active'));
+  element.classList.add('active');
+}
+
 
     AOS.init();
 </script>
