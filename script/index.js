@@ -62,7 +62,7 @@ class Controller {
             data.map(v => {
                 html += `
                     <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12  mt-4" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="4500">
-                        <div class="card" style="width: 18rem;">
+                        <div class="card">
                             <img src="${v.Image}" class="card-img-top" alt="">
                         </div>
                     </div>
@@ -93,187 +93,98 @@ class Controller {
         constructor() {
             this.data = [
                 {
-                    Name: "Nike Air",
-                    Type: "male",
-                    price : '50$',
                     Image: "./Picture/Coffee-1.jpg"
                 },
                 {
-
-                    Name: "Blood Test Tub",
-                    Type: "male",
-                    price : '45$',
                     Image: "./Picture/Coffee-2.jpg"
                 },
                 {
-                    Name: "Blood Test Tub",
-                    Type: "male",
-                    price : '29$',
                     Image: "./Picture/Coffee-3.jpg"
                 },
                 {
-                    Name: "Blood Test Tub",
-                    Type: "male",
-                    price : '61$',
                     Image: "./Picture/Coffee-4.jpg"
                 },
                 {
-                    Name: "Blood Test Tub",
-                    Type: "male",
-                    price : '61$',
                     Image: "./Picture/Coffee-5.jpg"
                 },
                 {
-                    Name: "Blood Test Tub",
-                    Type: "male",
-                    price : '76$',
                     Image: "./Picture/Coffee-6.jpg"
                 },
                 {
-                    Name: "Blood Test Tub",
-                    Type: "male",
-                    price : '55$',
                     Image: "./Picture/Coffee-7.jpg"
                 },
                 {
-                    Name: "Blood Test Tub",
-                    Type: "male",
-                    price : '32$',
                     Image: "./Picture/Coffee-8.jpg"
                 },
                 {
-                    Name: "Blood Test Tub",
-                    Type: "male",
-                    price : '32$',
                     Image: "./Picture/Coffee-9.jpg"
                 },
                 {
-                    Name: "Blood Test Tub",
-                    Type: "male",
-                    price : '32$',
                     Image: "./Picture/Coffee-10.jpg"
                 },
                 {
-                    Name: "Blood Test Tub",
-                    Type: "male",
-                    price : '32$',
                     Image: "./Picture/Coffee-11.jpg"
                 },
             ]
         this.data1 = [
             {
-                Name: "Blood Test Tub",
-                Type: "female",
-                price : '27$',
                 Image: "./Picture/Burger-1.jpg"
             },
             {
-
-                Name: "Blood Test Tub",
-                Type: "female",
-                price : '30$',
                 Image: "./Picture/Burger-2.jpg"
             },
             {
-                Name: "Blood Test Tub",
-                Type: "female",
-                price : '33$',
                 Image: "./Picture/Burger-3.jpg"
             },
             {
-                Name: "Blood Test Tub",
-                Type: "female",
-                price : '60$',
                 Image: "./Picture/Burger-4.jpg"
             },
             {
-                Name: "Blood Test Tub",
-                Type: "female",
-                price : '75$',
                 Image: "./Picture/Burger-5.jpg"
             },
             {
-                Name: "Blood Test Tub",
-                Type: "female",
-                price : '39$',
                 Image: "./Picture/Burger-6.jpg"
             },
             {
-                Name: "Blood Test Tub",
-                Type: "female",
-                price : '24$',
                 Image: "./Picture/Burger-7.jpg"
             },    
         ]
         this.data2 = [
             {
-                Name: "Blood Test Tub",
-                Type: "Kids",
-                price : '16$',
                 Image: "./Picture/Picture-1.jpg"
             },
             
             {
-                Name: "Blood Test Tub",
-                Type: "Kids",
-                price : '13$',
                 Image: "./Picture/Picture-2.jpg"
             },
             
             {
-                Name: "Blood Test Tub",
-                Type: "Kids",
-                price : '20$',
                 Image: "./Picture/Picture-3.jpg"
             },
             
             {
-                Name: "Blood Test Tub",
-                Type: "Kids",
-                price : '25$',
                 Image: "./Picture/Picture-4.jpg"
             },
             
             {
-                Name: "Blood Test Tub",
-                Type: "Kids",
-                price : '26$',
                 Image: "./Picture/Picture-5.jpg"
             },
             {
-                Name: "Blood Test Tub",
-                Type: "Kids",
-                price : '10$',
                 Image: "./Picture/Picture-6.jpg"
             },
             {
-                Name: "Blood Test Tub",
-                Type: "Kids",
-                price : '30$',
                 Image: "./Picture/Picture-7.jpg"
             },
             {
-                Name: "Blood Test Tub",
-                Type: "Kids",
-                price : '16$',
                 Image: "./Picture/Picture-8.jpg"
             },
             {
-                Name: "Blood Test Tub",
-                Type: "Kids",
-                price : '16$',
                 Image: "./Picture/Picture-9.jpg"
             },
             {
-                Name: "Blood Test Tub",
-                Type: "Kids",
-                price : '16$',
                 Image: "./Picture/Shoes-1.jpg"
             },
             {
-                Name: "Blood Test Tub",
-                Type: "Kids",
-                price : '16$',
                 Image: "./Picture/Shoes-2.jpg"
             },
         ]
